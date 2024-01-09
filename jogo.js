@@ -10,11 +10,11 @@ var nivel = window.location.search
 nivel = nivel.replace('?', '')
 
 if(nivel === 'normal') {
-    riaMosquitoTempo = 1500
+    criaMosquitoTempo = 1500
 } else if(nivel === 'dificil') {
-    riaMosquitoTempo = 1000
+    criaMosquitoTempo = 1000
 } else if(nivel === 'chucknorris') {
-    riaMosquitoTempo = 750
+    criaMosquitoTempo = 750
 }
 
 function ajustaTamanhoPalcoJogo() {
